@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Halfdone Club" width="300"/>
+</p>
+
 # halfdone-cc-planner
 
 A Claude Code skill that figures out what kind of project you're describing, then writes the right design document before you start coding — so you hand Claude Code (or Codex) a clear spec instead of a vague idea.

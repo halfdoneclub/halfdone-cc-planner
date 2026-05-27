@@ -1,6 +1,11 @@
 # halfdone-cc-planner
 
-A Claude Code skill that turns a rough project idea into a ready-to-use design document — saved directly to `docs/` so your next coding session can start immediately without copy-pasting.
+A Claude Code skill that figures out what kind of project you're describing, then writes the right design document before you start coding — so you hand Claude Code (or Codex) a clear spec instead of a vague idea.
+
+Describe what you want to build. The skill diagnoses complexity and picks the right artifact:
+- **Simple script or tool?** → writes a structured Claude Code request prompt (`docs/REQUEST.md`)
+- **Multi-feature app or website?** → writes a full PRD with P0/P1/P2 priorities (`docs/PRD.md`)
+- **AI agent, automation pipeline, or anything with runtime judgment?** → writes an agent design spec with workflow, AI-vs-code role split, and failure handling (`docs/AGENT_DESIGN.md`)
 
 Tell Claude what you want to build. The skill diagnoses complexity (Tier 1 / 2 / 3) and writes the right artifact:
 

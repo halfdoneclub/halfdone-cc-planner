@@ -1,0 +1,19 @@
+{
+  "name": "halfdone-cc-planner",
+  "version": "1.0.0",
+  "description": "Claude Code 프로젝트 플래너 — 아이디어를 복잡도 진단(Tier 1/2/3)하고 즉시 쓸 수 있는 산출물(요청문·PRD·에이전트 설계서)을 docs/에 저장합니다. Use when users want to start a new coding project, scaffold a plan, write a PRD, write an agent design doc, or ask 'how do I build this'.",
+  "author": {
+    "name": "Halfdone Club",
+    "email": "910408aa@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "project-planner",
+    "PRD",
+    "agent-design",
+    "complexity-diagnosis"
+  ],
+  "skills": "./skills/"
+}

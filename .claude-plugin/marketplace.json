@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "halfdone-cc-planner",
+  "description": "Claude Code 프로젝트 플래너 — 복잡도 진단(Tier 1/2/3) 후 요청문·PRD·에이전트 설계서를 자동 생성",
+  "owner": {
+    "name": "Halfdone Club",
+    "email": "910408aa@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "halfdone-cc-planner",
+      "description": "Claude Code 프로젝트 플래너 — 아이디어를 복잡도 진단(Tier 1/2/3)하고 즉시 쓸 수 있는 산출물(요청문·PRD·에이전트 설계서)을 docs/에 저장합니다.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Halfdone Club",
+        "email": "910408aa@gmail.com"
+      },
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "project-planner",
+        "PRD",
+        "agent-design",
+        "complexity-diagnosis",
+        "claude-code"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}
